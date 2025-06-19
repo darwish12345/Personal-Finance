@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+/* Custom styles for charts */
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
